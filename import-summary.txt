@@ -1,0 +1,165 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Risky Project Location:
+-----------------------
+The tools *should* handle project locations in any directory. However,
+due to bugs, placing projects in directories containing spaces in the
+path, or characters like ", ' and &, have had issues. We're working to
+eliminate these bugs, but to save yourself headaches you may want to
+move your project to a location where this is not a problem.
+D:\_my_junks\_Hackathon\_perk\ChattDemo Main
+                                       -    
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* doc\
+* doc\allclasses-frame.html
+* doc\allclasses-noframe.html
+* doc\com\
+* doc\com\chatt\
+* doc\com\chatt\demo\
+* doc\com\chatt\demo\BuildConfig.html
+* doc\com\chatt\demo\Chat.ChatAdapter.html
+* doc\com\chatt\demo\Chat.html
+* doc\com\chatt\demo\ChattApp.html
+* doc\com\chatt\demo\Login.html
+* doc\com\chatt\demo\R.attr.html
+* doc\com\chatt\demo\R.color.html
+* doc\com\chatt\demo\R.dimen.html
+* doc\com\chatt\demo\R.drawable.html
+* doc\com\chatt\demo\R.html
+* doc\com\chatt\demo\R.id.html
+* doc\com\chatt\demo\R.layout.html
+* doc\com\chatt\demo\R.string.html
+* doc\com\chatt\demo\R.style.html
+* doc\com\chatt\demo\Register.html
+* doc\com\chatt\demo\UserList.UserAdapter.html
+* doc\com\chatt\demo\UserList.html
+* doc\com\chatt\demo\class-use\
+* doc\com\chatt\demo\class-use\BuildConfig.html
+* doc\com\chatt\demo\class-use\Chat.ChatAdapter.html
+* doc\com\chatt\demo\class-use\Chat.html
+* doc\com\chatt\demo\class-use\ChattApp.html
+* doc\com\chatt\demo\class-use\Login.html
+* doc\com\chatt\demo\class-use\R.attr.html
+* doc\com\chatt\demo\class-use\R.color.html
+* doc\com\chatt\demo\class-use\R.dimen.html
+* doc\com\chatt\demo\class-use\R.drawable.html
+* doc\com\chatt\demo\class-use\R.html
+* doc\com\chatt\demo\class-use\R.id.html
+* doc\com\chatt\demo\class-use\R.layout.html
+* doc\com\chatt\demo\class-use\R.string.html
+* doc\com\chatt\demo\class-use\R.style.html
+* doc\com\chatt\demo\class-use\Register.html
+* doc\com\chatt\demo\class-use\UserList.UserAdapter.html
+* doc\com\chatt\demo\class-use\UserList.html
+* doc\com\chatt\demo\custom\
+* doc\com\chatt\demo\custom\CustomActivity.html
+* doc\com\chatt\demo\custom\class-use\
+* doc\com\chatt\demo\custom\class-use\CustomActivity.html
+* doc\com\chatt\demo\custom\package-frame.html
+* doc\com\chatt\demo\custom\package-summary.html
+* doc\com\chatt\demo\custom\package-tree.html
+* doc\com\chatt\demo\custom\package-use.html
+* doc\com\chatt\demo\model\
+* doc\com\chatt\demo\model\Conversation.html
+* doc\com\chatt\demo\model\class-use\
+* doc\com\chatt\demo\model\class-use\Conversation.html
+* doc\com\chatt\demo\model\package-frame.html
+* doc\com\chatt\demo\model\package-summary.html
+* doc\com\chatt\demo\model\package-tree.html
+* doc\com\chatt\demo\model\package-use.html
+* doc\com\chatt\demo\package-frame.html
+* doc\com\chatt\demo\package-summary.html
+* doc\com\chatt\demo\package-tree.html
+* doc\com\chatt\demo\package-use.html
+* doc\com\chatt\demo\utils\
+* doc\com\chatt\demo\utils\Const.html
+* doc\com\chatt\demo\utils\TouchEffect.html
+* doc\com\chatt\demo\utils\Utils.html
+* doc\com\chatt\demo\utils\class-use\
+* doc\com\chatt\demo\utils\class-use\Const.html
+* doc\com\chatt\demo\utils\class-use\TouchEffect.html
+* doc\com\chatt\demo\utils\class-use\Utils.html
+* doc\com\chatt\demo\utils\package-frame.html
+* doc\com\chatt\demo\utils\package-summary.html
+* doc\com\chatt\demo\utils\package-tree.html
+* doc\com\chatt\demo\utils\package-use.html
+* doc\constant-values.html
+* doc\deprecated-list.html
+* doc\help-doc.html
+* doc\index-files\
+* doc\index-files\index-1.html
+* doc\index-files\index-10.html
+* doc\index-files\index-11.html
+* doc\index-files\index-12.html
+* doc\index-files\index-13.html
+* doc\index-files\index-14.html
+* doc\index-files\index-15.html
+* doc\index-files\index-16.html
+* doc\index-files\index-17.html
+* doc\index-files\index-18.html
+* doc\index-files\index-19.html
+* doc\index-files\index-2.html
+* doc\index-files\index-20.html
+* doc\index-files\index-3.html
+* doc\index-files\index-4.html
+* doc\index-files\index-5.html
+* doc\index-files\index-6.html
+* doc\index-files\index-7.html
+* doc\index-files\index-8.html
+* doc\index-files\index-9.html
+* doc\index.html
+* doc\overview-frame.html
+* doc\overview-summary.html
+* doc\overview-tree.html
+* doc\package-list
+* doc\resources\
+* doc\resources\background.gif
+* doc\resources\tab.gif
+* doc\resources\titlebar.gif
+* doc\resources\titlebar_end.gif
+* doc\stylesheet.css
+* proguard-project.txt
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:19.1.0
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app\src\main\AndroidManifest.xml
+* libs\Parse-1.4.0.jar => app\libs\Parse-1.4.0.jar
+* res\ => app\src\main\res\
+* src\ => app\src\main\java\
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)

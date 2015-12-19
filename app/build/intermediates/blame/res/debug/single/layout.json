@@ -1,0 +1,38 @@
+[
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\user_list.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\user_list.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\chat.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_sent.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\chat_item_sent.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leave_approval.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\leave_approval.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\login.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\login.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\register.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\register.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\leave_request.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\leave_request.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\chat_item.xml"
+    },
+    {
+        "merged": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\build\\intermediates\\res\\merged\\debug\\layout\\chat_item_rcv.xml",
+        "source": "D:\\_my_junks\\_Hackathon\\_perk\\ChattDemo Main\\app\\src\\main\\res\\layout\\chat_item_rcv.xml"
+    }
+]

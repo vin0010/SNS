@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#000000</color>
+    <color name="gray_light">#e8e8e8</color>
+    <color name="main_color_gray">#7d7d7d</color>
+    <color name="main_color_gray_dk">#3b3b3b</color>
+    <color name="main_color_gray_lt">#acacac</color>
+    <color name="main_color_green">#00b863</color>
+    <color name="transparent">#00000000</color>
+    <color name="white">#ffffff</color>
+    <color name="white_smoke">#F7F7F7</color>
+    <dimen name="pad_10dp">10dp</dimen>
+    <dimen name="pad_15dp">15dp</dimen>
+    <dimen name="pad_20dp">20dp</dimen>
+    <dimen name="pad_30dp">30dp</dimen>
+    <dimen name="pad_5dp">5dp</dimen>
+    <dimen name="pad_chat_item">45dp</dimen>
+    <dimen name="pad_chat_item1">10dp</dimen>
+    <dimen name="txt_12sp">12sp</dimen>
+    <dimen name="txt_13sp">13sp</dimen>
+    <dimen name="txt_14sp">14sp</dimen>
+    <dimen name="txt_15sp">15sp</dimen>
+    <dimen name="txt_16sp">16sp</dimen>
+    <dimen name="txt_18sp">18sp</dimen>
+    <dimen name="txt_20sp">20sp</dimen>
+    <dimen name="txt_7sp">7sp</dimen>
+    <string name="alert_loading">Loading...</string>
+    <string name="alert_wait">Please wait...</string>
+    <string name="all_chats">All Chats</string>
+    <string name="app_name">Chatt</string>
+    <string name="apply">apply</string>
+    <string name="drawer_close">Close</string>
+    <string name="drawer_open">Open</string>
+    <string name="edit">Edit</string>
+    <string name="email">Email</string>
+    <string name="err_fields_empty">Please fill all the fields.</string>
+    <string name="err_login">Error occurred while login:</string>
+    <string name="err_singup">Error occurred while signup:</string>
+    <string name="err_users">Error occurred while finding users:</string>
+    <string name="forgot_my_pwd">I’ve forgotten my password?</string>
+    <string name="log_in">Log in</string>
+    <string name="msg_no_user_found">No users found for chat!</string>
+    <string name="my_chats">My Chats</string>
+    <string name="new_chat">New Chat</string>
+    <string name="or">or</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="search">Search</string>
+    <string name="to">To:</string>
+    <string name="type_msg">Type message</string>
+    <string name="username">Username</string>
+    <style name="AppBaseTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+    </style>
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:homeAsUpIndicator">@drawable/back_arrow</item>
+    </style>
+    <style name="btn" parent="android:Widget.Holo.Light.Button">
+        <item name="android:minHeight">1dp</item>
+        <item name="android:minWidth">1dp</item>
+    </style>
+    <style name="btn_green_white_bg" parent="@style/btn">
+        <item name="android:background">@color/white</item>
+        <item name="android:paddingBottom">@dimen/pad_10dp</item>
+        <item name="android:paddingRight">@dimen/pad_15dp</item>
+        <item name="android:paddingTop">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/main_color_green</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+    <style name="btn_white_large" parent="@style/btn">
+          <item name="android:background">@drawable/green_btn</item>
+          <item name="android:textColor">@color/white</item>
+          <item name="android:textSize">@dimen/txt_18sp</item>
+     </style>
+    <style name="editext_graybg" parent="android:Widget.EditText">
+          <item name="android:background">@drawable/editext_bg_gray</item>
+          <item name="android:drawablePadding">@dimen/pad_10dp</item>
+          <item name="android:ems">10</item>
+          <item name="android:inputType">textEmailAddress</item>
+          <item name="android:paddingLeft">@dimen/pad_10dp</item>
+          <item name="android:paddingRight">@dimen/pad_10dp</item>
+          <item name="android:textSize">@dimen/txt_16sp</item>
+     </style>
+    <style name="editext_white" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@color/white</item>
+        <item name="android:inputType">textEmailAddress</item>
+        <item name="android:paddingBottom">@dimen/pad_10dp</item>
+        <item name="android:paddingTop">@dimen/pad_10dp</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:textSize">@dimen/txt_14sp</item>
+    </style>
+    <style name="edittext_msg" parent="android:Widget.Holo.Light.EditText">
+        <item name="android:background">@drawable/edittext_bg</item>
+        <item name="android:ems">10</item>
+        <item name="android:imeActionId">100</item>
+        <item name="android:imeOptions">actionSend</item>
+        <item name="android:inputType">text</item>
+        <item name="android:layout_marginLeft">@dimen/pad_5dp</item>
+        <item name="android:layout_marginRight">@dimen/pad_5dp</item>
+        <item name="android:paddingLeft">@dimen/pad_5dp</item>
+        <item name="android:paddingRight">@dimen/pad_5dp</item>
+        <item name="android:textColorHint">@color/main_color_gray</item>
+        <item name="android:textSize">@dimen/txt_16sp</item>
+    </style>
+</resources>
